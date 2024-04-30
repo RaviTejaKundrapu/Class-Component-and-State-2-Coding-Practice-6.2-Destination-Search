@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: 100vh;
+  width: 100vw;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+.input-item {
+  width: 250px;
+  height: 43px;
+  background-color: #f1f5f9;
+  border: none;
+  border-radius: 10px;
+  font-family: 'roboto';
+  font-size: 22px;
+}
+
+.search-icon {
+  width: 46px;
+  height: 46px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 39px;
+  font-weight: 900;
+  color: #0f172a;
+  text-align: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  /* border: 1px solid rebeccapurple; */
+}
+
+@media all and (min-width: 767px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  .list-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* border: 1px solid rebeccapurple; */
+    flex-wrap: wrap;
+  }
+}

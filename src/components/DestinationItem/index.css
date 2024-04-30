@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.each-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rebeccapurple; */
+  padding: 6px;
+  margin: 9px;
+}
+
+.destination-name {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.destination-img {
+  height: 150px;
+  width: 150px;
+}
+
+@media all and (min-width: 767px) {
+  .destination-name {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+  }
+
+  .destination-img {
+    height: 199px;
+    width: 199px;
+  }
+}
